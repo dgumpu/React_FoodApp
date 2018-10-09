@@ -1,0 +1,56 @@
+{
+  "name": "react-redux-typescript-guide",
+  "description": "Created for https://github.com/piotrwitek/react-redux-typescript-guide",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io/)",
+  "repository": "https://github.com/piotrwitek/react-redux-typescript-guide.git",
+  "license": "MIT",
+  "main": "src/index.tsx",
+  "engines": {
+    "node": "8",
+    "npm": "5"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prereinstall": "rm -rf node_modules",
+    "reinstall": "npm install",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "cuid": "2.1.1",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "rxjs": "6.2.0",
+    "rxjs-compat": "6.2.0",
+    "tslib": "1.9.1",
+    "typesafe-actions": "2.0.4",
+    "utility-types": "2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.3.14",
+    "@types/react-dom": "16.0.5",
+    "@types/react-redux": "6.0.0",
+    "@types/uuid": "^3.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.3.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.1",
+    "tslint": "5.10.0",
+    "tslint-react": "3.6.0",
+    "typescript": "2.8.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
